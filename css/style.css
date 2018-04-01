@@ -1116,6 +1116,13 @@ h3.title {
     width: 100%;
 }
 
-
+/* map*/
+.card {
+    /*card layout*/
+    position: relative;
+    transition: box-shadow .25s;
+    border-radius: 12px;
+    margin: 8px 0;
+    }
 
 /*--//responsive-design---*/
