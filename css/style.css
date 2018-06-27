@@ -1,4 +1,9 @@
-
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -1113,10 +1118,6 @@ h3.title {
     transition: 0.5s all;
     -moz-transition: 0.5s all;*/
     width: 100%;
-}
-#SkypeButton_Call_pranjalrastogi1998_1{
-    background-color: blue;
-    padding: 4px;
 }
 
 /* map*/
