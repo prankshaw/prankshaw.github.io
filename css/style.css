@@ -267,6 +267,10 @@ p {
 	-o-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 }
+.highlite {
+    color: #e8491d;
+    font-weight: bold;
+}
 /*--//work--*/
 /*--education--*/
 .education .work-info h5 {
