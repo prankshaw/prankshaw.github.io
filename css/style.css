@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
-	background: #fff;
+	background: #1f1f1f;
 }
 body a{
 	transition: 0.5s all;
@@ -238,11 +238,16 @@ p {
     margin-right: 5em;
     margin-left: -8em;
 }
+
+
+
 .work-left2 h5 span.glyphicon {
-    margin-left: 4em;
+    margin-left: 5em;
     margin-right: -7.3em;
     z-index: 9;
 }
+
+
 .work-right.work-right2 {
     min-height: 210px;
     float: right;
@@ -620,10 +625,11 @@ h2.resp-accordion {
 	font-size: 1.1em;
 }
 .footer p a{
-    color: #F7E612;
+    color: #FFF;
 }
 .footer p a:hover{
     color: #fff;
+    font-size: 1.3em;
 }
 /*--//footer--*/
 /*--slider-up-arrow--*/
@@ -1128,5 +1134,11 @@ h3.title {
     border-radius: 12px;
     margin: 8px 0;
     }
+/*////map*/
+
+
+/* achievement section */
+
+/*/////// achievement section */
 
 /*--//responsive-design---*/

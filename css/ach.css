@@ -1,0 +1,167 @@
+
+.contained {
+    margin: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+/*-------- flex container --------*/
+.flex-container {
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-flex-flow: row wrap;
+    position: relative;
+}
+.flex-item {
+    color: #fff;
+    height: 210px;
+    margin: 10px 0;
+    padding: 0;
+    width: 225px;
+    position: relative;
+}
+.flex-item-inner {
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 210px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.flex-item-inner a {
+    color: #fff;
+    cursor: pointer;
+}
+
+/*-------- cards --------*/
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 185px;
+    height: 170px;
+    padding: 20px;
+    margin: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    justify-content: flex-end;
+}
+.card-front i.tile-icon {
+    display: block;
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+.card-front h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.card-front p.detail {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.card-front.bg-violet {
+    background-color: #702082;
+}
+.card-front.bg-magenta {
+    background-color: #c110a0;
+}
+.card-front.bg-blue {
+    background-color: #00a0d2;
+}
+.card-front.bg-chartreuse {
+    background-color: chartreuse ;
+}
+
+.card-front.bg-red {
+    background-color: red ;
+}
+.card-front.bg-black {
+    background-color: black ;
+}
+.card-front.bg-yellow {
+    background-color: yellow ;
+}
+.card-front.bg-orange {
+    background-color: orange ;
+}
+
+.card-front.bg-silver {
+    background-color: silver ;
+}
+
+.card-back {
+    background-color: #1e1e1e;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.card-back p.title {
+    color: #000;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.card-back p.desc {
+    color: #63666a;
+}
+.card-back p.link {
+    color: #702082;
+}
+.card-back.bg-violet {
+    background-color: #D8BFD8;
+}
+.card-back.bg-magenta {
+    background-color: #FFB6C1;
+}
+.card-back.bg-blue {
+    background-color: #c8d7df;
+}
+.card-back.bg-chartreuse {
+    background-color: #c9ffca;
+}
+
+.card-back.bg-orange {
+    background-color: #ffcf82;
+}
+.card-back.bg-black {
+    background-color: #ebe8e4;
+}
+.card-back.bg-yellow {
+    background-color: #fffcb3;
+}
+.card-back.bg-red {
+    background-color: #ffd9d9;
+}
+.card-back.bg-silver {
+    background-color: #D3D3D3;
+}
+
+/*-------- cards / flip effect --------*/
+.flex-item:hover .card-front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.flex-item:hover .card-back {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+
+
+
+
+
